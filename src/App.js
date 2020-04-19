@@ -18,19 +18,29 @@ import './appStyles.css';
 import styles from './appStyles.module.css';
 import Form from './components/Form';
 import Lifecycle1 from './components/Lifecycle1';
+import FragmentDemo from './components/FragmentDemo';
+import Table from './components/Table';
+import { PureComp } from './components/PureComp';
+import ParentComp from './components/ParentComp';
+import RefDemo from './components/RefDemo';
+import FocusInput from './components/FocusInput';
+import FRParentInput from './components/FRParentInput';
 
 function App() {
   return (
     <div className="App">
 
-    <Lifecycle1 />
 
-    
-
+    <FRParentInput />
 
 
 
-      {/* <Stylesheet primary = {true} />
+
+    {/* <FragmentDemo />
+
+    <Table /> */}
+      {/* <Lifecycle1 />
+      <Stylesheet primary = {true} />
       <Inline />
 
       <h1 className = 'error'>Error</h1>
